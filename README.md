@@ -96,14 +96,14 @@ Here is the data format for language model pre-training data.
   The UMLM data format is a json file.
   The json format is 
 
-```json
-  	[
+```python
+[
     {
-     "utterances": ["u1", "u2", .....] #the utterances list, `			
-		 "is_correct_order": Yes\No #if the utterance is in correct order or not
+     "utterances": ["u1", "u2", .....] # The utterances list, 		
+		 "is_correct_order": "Yes" or "No" # If the utterance is in correct order or not
 		},
     ....
-    ]`
+]`
 ```
 
   You can modify it to your own format in /transformers/data/processors/uop.py if you want.
