@@ -101,7 +101,7 @@ Here is the data format for language model pre-training data.
 
 ###### UOP
 
-  The UMLM data format is a json file.
+  The UOP data format is a json file.
   The json format is 
 
 ```python
