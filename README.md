@@ -8,20 +8,20 @@ The source code files are mainly based on [huggingface](https://github.com/huggi
 
 ##### Data process files:
 
-###### /transformers/data/processors/umlm.py 
+###### /src/transformers/data/processors/umlm.py 
 
   Read generated utterance-level masked language modeling data into examples and create features from the examples
 
-###### /transformers/data/processors/uop.py 
+###### /src/transformers/data/processors/uop.py 
 
   Read generated utterance order prediction (UOP) data into examples and create features from the examples
-###### /transformers/data/processors/friendsqa.py 
+###### /src/transformers/data/processors/friendsqa.py 
 
   Read friendsqa data into examples and create features from the examples
 
 ##### Model files:
 
-###### /transformers/modeling_bert.py:
+###### /src/transformers/modeling_bert.py:
 
   Token-level masked language modeling BERT model 
 
@@ -33,7 +33,7 @@ The source code files are mainly based on [huggingface](https://github.com/huggi
 
   QA split context fine-tuning BERT model
 
-###### /transformers/modeling_roberta.py:
+###### /src/transformers/modeling_roberta.py:
 
   Token-level masked language modeling RoBERTa model 
 
@@ -65,19 +65,19 @@ The source code files are mainly based on [huggingface](https://github.com/huggi
 
 ##### Other utility files:
 
-###### /utils/test_models.py
+###### /src/utils/test_models.py
 
   Test if all neural models correctly work
-###### /utils/categorizing.py
+###### /src/utils/categorizing.py
 
   Categorize results by question types
-###### /utils/analysis.py
+###### /src/utils/analysis.py
 
   Analyze categorized results
-###### /evaluate_whole_context.py
+###### /src/utils/evaluate_whole_context.py
 
   Evaluate the whole context QA fine-tuning results 
-###### /evaluate_split_context.py
+###### /src/utils/evaluate_split_context.py
 
   Evaluate the split context QA fine-tuning results
 
