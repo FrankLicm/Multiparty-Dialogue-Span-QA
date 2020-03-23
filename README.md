@@ -21,7 +21,7 @@ The source code files are mainly based on [huggingface](https://github.com/huggi
 
 ##### Model files:
 
-###### /transformers/modeling_roberta.py:
+###### /transformers/modeling_bert.py:
 
   Token-level masked language modeling BERT model 
 
