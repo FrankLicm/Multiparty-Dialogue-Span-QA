@@ -4,7 +4,7 @@ Code for paper: Transformers to Learn Hierarchical Contexts in Multiparty Dialog
 
 The source code files are partly based on [huggingface](https://github.com/huggingface)/[transformers](https://github.com/huggingface/transformers).
 
-Please go to [emorynlp/friendsqa][https://github.com/emorynlp/friendsqa] to see more information.
+Please go to [emorynlp/friendsqa](https://github.com/emorynlp/friendsqa) to see more information.
 
 #### Source files include:
 
